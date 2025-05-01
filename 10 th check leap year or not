@@ -1,0 +1,11 @@
+public class addcomplesnumbers{
+    public static void main(String args[]){
+     int Year =2021;
+     if(((Year%4 ==0)&&(Year%100!=0))||(Year%400==0)){
+         System.out.println("Its a leap year");
+     }else
+     {
+    System.out.println("It is not a leap year");
+    }
+}
+}
