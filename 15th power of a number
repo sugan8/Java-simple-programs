@@ -1,0 +1,14 @@
+// java program to find power of a number 
+import java.util.Scanner;
+public class powerofnumeber{
+    public static void main (String args[]){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter the base :");
+        int base = input.nextInt();
+        System.out.println("enter the exponent :");
+        int exponent = input.nextInt();
+        System.out.println("power value is :"+ Math.pow(base,exponent));
+            input.close();
+    }
+}
+// rather than using while loop we can use math.pow
