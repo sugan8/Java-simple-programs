@@ -1,0 +1,22 @@
+// finding quotient and remainder
+import java.util.Scanner;
+
+public class quotientremainder {
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("enter the dividend:");
+        int dividend = input.nextInt();
+
+        System.out.println("enter the divisor:");  
+        int divisor = input.nextInt();
+
+        int quotient = dividend / divisor;
+        int remainder = dividend % divisor;
+
+        System.out.println("quotient value is :" + quotient);
+        System.out.println("remainder value is :" + remainder);
+
+        input.close();
+    }
+}
