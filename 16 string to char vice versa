@@ -1,0 +1,12 @@
+public class chartostring{
+    public static void main(String args[]){
+        // convert char to string
+        char ch='a';
+        String str=Character.toString(ch);
+        System.out.println("character to string:"+str);
+        // convert string to char
+        String s="sugan";
+        char c=s.charAt(4);
+        System.out.println("String to char:"+c);
+    }
+}
